@@ -1,0 +1,15 @@
+# NuGet Dependency Visualizer
+
+Tool for visualizing NuGet package dependency graphs (Variant 13)
+
+## Features
+- CLI configuration
+- NuGet package dependency analysis  
+- BFS graph traversal
+- Cycle detection
+- Reverse dependencies
+- PlantUML visualization
+
+## Usage
+```bash
+python src/main.py -p A -s configs/test_repository.json --test-mode
